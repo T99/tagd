@@ -7,7 +7,9 @@
 		".": "./js/main.js"
 	},
 	"typesVersions": {
-		".": ["./.d.ts/main.d.ts"]
+		".": [
+			"./.d.ts/main.d.ts"
+		]
 	},
 	"engines": {
 		"node": ">=14.16"
@@ -31,15 +33,18 @@
 	},
 	"homepage": "https://github.com/<github_org>/<base_name>#readme",
 	"devDependencies": {
-		"@t99/eslint-config": "latest",
+		"@t99/eslint-config": "^1.2.13",
 		"@types/jest": "latest",
 		"del": "latest",
 		"gulp": "latest",
 		"gulp-sourcemaps": "latest",
-		"gulp-typescript": "latest",
 		"gulp-terser": "latest",
+		"gulp-typescript": "latest",
 		"jest": "latest",
 		"ts-jest": "latest",
 		"typescript": "latest"
+	},
+	"dependencies": {
+		"@t99/mysql-toolkit": "^0.5.3"
 	}
 }
